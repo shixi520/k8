@@ -1,0 +1,42 @@
+BOARD=k65v1_64_bsp
+CPU_ABI2=armeabi
+HOST=compiler0178
+versionName=1.0
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@c91378a
+CPU_ABI=armeabi-v7a
+PERMISSIONS_REVIEW_REQUIRED=false
+DISPLAY=P00610 release-keys
+SUPPORTED_ABIS=[Ljava.lang.String;@77ce1fb
+FINGERPRINT=vivo/PD1901/PD1901:9/P00610/compiler06172329:user/release-keys
+PRODUCT=PD1901
+ID=P00610
+TYPE=user
+SERIAL=unknown
+DEVICE=PD1901
+needModifyModelAppList=[com.cpuid.cpu_z, com.finalwire.aida64, com.antutu.ABenchMark, com.ludashi.benchmark, com.tencent.mobileqq, com.qzone, com.tencent.karaoke, com.sina.weibo]
+TIME=1655479708000
+MODEL=V1901A
+MANUFACTURER=vivo
+USER=compiler
+versionCode=1
+BRAND=vivo
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@e783df5
+HARDWARE=mt6765
+IS_DEBUGGABLE=false
+BOOTLOADER=unknown
+RADIO=unknown
+RIGHTMODEL=PD1901
+UNKNOWN=unknown
+IS_EMULATOR=false
+TAGS=release-keys
+java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.android.support.MainActivity.kg(MainActivity.java:108)
+	at com.android.support.MainActivity.access$1000015(Unknown Source:0)
+	at com.android.support.MainActivity$100000004.run(MainActivity.java:270)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:224)
+	at android.app.ActivityThread.main(ActivityThread.java:7087)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:604)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:928)
